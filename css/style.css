@@ -3,6 +3,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -37,7 +38,7 @@ main {
 }
 
 .gradient-container {
-    min-width: 200px;
+    width: 200px;
     min-height: 200px;
     background: white;
     display: inline-block;
@@ -50,6 +51,15 @@ main {
     min-width: 150px;
     min-height: 150px;
     border-radius: 50%;
+}
+
+.gradient-code {
+    background: #0F0F0F;
+    color: #FAEBFE;
+    border-radius: 5px;
+    font-family: Consolas, system;
+    max-height: 5em;
+    overflow: auto;
 }
 
 .sunny-gradient {
