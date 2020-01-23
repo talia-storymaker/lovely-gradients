@@ -1,3 +1,5 @@
+/* General */
+
 * {
     padding: 0;
     margin: 0;
@@ -8,6 +10,8 @@ body {
     background: #FAEBFE;
 }
 
+/* Intro */
+
 .intro {
     text-align: center;
 }
@@ -16,4 +20,22 @@ body {
     font-size: 5rem;
     font-weight: normal;
     margin-bottom: 1rem;
+}
+
+/* Gradients Section */
+
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.gradient-container {
+    min-width: 200px;
+    min-height: 200px;
+    background: white;
+    display: inline-block;
+    margin: 20px;
 }
