@@ -10,6 +10,11 @@ body {
     background: #FAEBFE;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
 /* Intro */
 
 .intro {
@@ -18,7 +23,6 @@ body {
 
 .intro h1 {
     font-size: 5rem;
-    font-weight: normal;
     margin-bottom: 1rem;
 }
 
@@ -38,4 +42,17 @@ main {
     background: white;
     display: inline-block;
     margin: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.gradient {
+    min-width: 150px;
+    min-height: 150px;
+    border-radius: 50%;
+}
+
+.sunny-gradient {
+    background: linear-gradient(to left, red, yellow);
+    display: inline-block;
 }
