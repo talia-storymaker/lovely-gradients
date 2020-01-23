@@ -1,1 +1,2 @@
-# lovely-gradients
+# Lovely Gradients
+WIP - not done yet!
