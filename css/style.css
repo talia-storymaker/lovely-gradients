@@ -79,3 +79,15 @@ main {
 .burn-glow {
     background: linear-gradient(to right, #FF2D2D, #5D0000);
 }
+
+.lush-leaf {
+    background: linear-gradient(to right, #4ADC00, #01A351);
+}
+
+.mysterious {
+    background: radial-gradient(circle at top left, #D4FF84, #28004E);
+}
+
+.alien-rays {
+    background: repeating-radial-gradient(#193AFF 5px, #19E3FF 5%);
+}
