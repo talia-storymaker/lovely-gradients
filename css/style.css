@@ -88,6 +88,14 @@ main {
     background: radial-gradient(circle at top left, #D4FF84, #28004E);
 }
 
-.alien-rays {
-    background: repeating-radial-gradient(#193AFF 5px, #19E3FF 5%);
+.waves {
+    background: repeating-radial-gradient(circle at bottom right, #193AFF, #19E3FF 15%);
+}
+
+.waves {
+    background: repeating-radial-gradient(circle at bottom right, #193AFF, #19E3FF 15%);
+}
+
+.cross-glow {
+    background: linear-gradient(to top, transparent, #FFFFB6, transparent), linear-gradient(to right, #1B317A, #FFFFB6, #1B317A)
 }
