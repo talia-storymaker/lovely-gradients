@@ -97,5 +97,17 @@ main {
 }
 
 .cross-glow {
-    background: linear-gradient(to top, transparent, #FFFFB6, transparent), linear-gradient(to right, #1B317A, #FFFFB6, #1B317A)
+    background: linear-gradient(to top, transparent, #FFFFB6, transparent), linear-gradient(to right, #1B317A, #FFFFB6, #1B317A);
+}
+
+.pearly {
+    background: linear-gradient(to right, #F3B6FF, #FFF7BC, #BCCAFF);
+}
+
+.drama {
+    background: linear-gradient(to bottom right, #C72713, #A010BC);
+}
+
+.funkadelic {
+    background: repeating-radial-gradient(circle at center, #FF8D00, #CDE3FF 15%, #FF00A9 25%);
 }
