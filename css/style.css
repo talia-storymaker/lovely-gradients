@@ -64,6 +64,8 @@ main {
     overflow: auto;
 }
 
+/* Gradients */
+
 .tropical-fruit {
     background: linear-gradient(to right, #FFCA00, #FF3400);
 }
@@ -109,5 +111,13 @@ main {
 }
 
 .funkadelic {
-    background: repeating-radial-gradient(circle at center, #FF8D00, #CDE3FF 15%, #FF00A9 25%);
+    background: repeating-radial-gradient(circle at 50% 40%, #FF8D00, #CDE3FF 15%, #FF00A9 25%);
+}
+
+.smooth {
+    background: linear-gradient(to bottom right, #8AB6EE, #F9D39A);
+}
+
+.dark-murk {
+    background: linear-gradient(to bottom right, #09212B, #1A2B09);
 }
