@@ -10,7 +10,14 @@ function addCopyButtons() {
     for (let i = 0; i < gradientContainers.length; i++) {
         const copyButton = document.createElement('button');
         copyButton.className = 'copy-button';
-        copyButton.textContent = 'Copy';
+        const copyText = document.createElement('span');
+        copyText.className = 'copy-text';
+        copyText.textContent = 'Copy';
+        copyButton.appendChild(copyText);
+        const copyConfirmation = document.createElement('span');
+        copyConfirmation.className = 'copy-confirmation'
+        copyConfirmation.textContent = 'Copied!'
+        copyButton.appendChild(copyConfirmation);
         gradientContainers[i].appendChild(copyButton);
     }
 }

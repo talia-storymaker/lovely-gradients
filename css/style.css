@@ -74,6 +74,18 @@ main {
     border-radius: 5px;
 }
 
+.copy-confirmation {
+    display: none;
+}
+
+.copy-button:active .copy-text {
+    display: none;
+}
+
+.copy-button:active .copy-confirmation {
+    display: inline;
+}
+
 /* Gradients */
 
 .tropical-fruit {
