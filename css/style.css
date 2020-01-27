@@ -64,6 +64,16 @@ main {
     overflow: auto;
 }
 
+.copy-button {
+    background: #0F0F0F;
+    color: #FAEBFE;
+    font-family: 'Segoe UI', Helvetica, sans-serif;
+    padding: 7px;
+    border: none;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
 /* Gradients */
 
 .tropical-fruit {
