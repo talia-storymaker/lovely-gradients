@@ -33,20 +33,26 @@ function copyToClipboard(str) {
 }
 
 function showCopyConfirmation(el) {
-    el.querySelector('copy-text').style.display = 'none';
-    el.querySelector('copy-confirmation').style.display = 'inline';
-    setTimeout(() => hideCopyConfirmation(el), 3000);
+    el.querySelector('.copy-text').style.display = 'none';
+    el.querySelector('.copy-confirmation').style.display = 'inline';
+    setTimeout(() => hideCopyConfirmation(el), 1000);
 }
 
 function hideCopyConfirmation(el) {
-    el.querySelector('copy-text').style.display = 'inline';
-    el.querySelector('copy-confirmation').style.display = 'none';
+    el.querySelector('.copy-text').style.display = 'inline';
+    el.querySelector('.copy-confirmation').style.display = 'none';
 }
 
 document.addEventListener('click', function(event) {
-	if (event.target.matches('.copy-button')) {
-        copyToClipboard(event.target.parentNode.querySelector('.gradient-code').textContent);
-        showCopyConfirmation(event.target);
+    let currentButton;
+	if (event.target.matches('.copy-button') || event.target.parentNode.matches('.copy-button')) {
+        if (event.target.matches('.copy-button')) {
+            currentButton = event.target;
+        } else {
+            currentButton = event.target.parentNode;
+        }
+        copyToClipboard(currentButton.parentNode.querySelector('.gradient-code').textContent);
+        showCopyConfirmation(currentButton);
     }
 }, false);
 
