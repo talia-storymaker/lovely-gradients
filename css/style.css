@@ -135,3 +135,11 @@ main {
 .dark-murk {
     background: linear-gradient(to bottom right, #09212B, #1A2B09);
 }
+
+.fun {
+    background: linear-gradient(to right, #FD8E8E, #52B7D5);
+}
+
+.luxury {
+    background: linear-gradient(to bottom left, #4c212a, #964d26, #4c212a)
+}
