@@ -32,9 +32,21 @@ function copyToClipboard(str) {
     document.body.removeChild(el);
 }
 
+function showCopyConfirmation(el) {
+    el.querySelector('copy-text').style.display = 'none';
+    el.querySelector('copy-confirmation').style.display = 'inline';
+    setTimeout(() => hideCopyConfirmation(el), 3000);
+}
+
+function hideCopyConfirmation(el) {
+    el.querySelector('copy-text').style.display = 'inline';
+    el.querySelector('copy-confirmation').style.display = 'none';
+}
+
 document.addEventListener('click', function(event) {
 	if (event.target.matches('.copy-button')) {
-		copyToClipboard(event.target.parentNode.querySelector('.gradient-code').textContent);
+        copyToClipboard(event.target.parentNode.querySelector('.gradient-code').textContent);
+        showCopyConfirmation(event.target);
     }
 }, false);
 
