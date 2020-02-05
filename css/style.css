@@ -143,3 +143,15 @@ main {
 .luxury {
     background: linear-gradient(to bottom left, #4c212a, #964d26, #4c212a)
 }
+
+.luxury {
+    background: linear-gradient(to bottom left, #4c212a, #964d26, #4c212a)
+}
+
+.sea {
+    background: linear-gradient(to bottom right, #224C65, #00A388);
+}
+
+.sun {
+    background: radial-gradient(circle at center, #ff0 10%, #FFB70E 40%, #fff 40%, #0090FF 65%);
+}
