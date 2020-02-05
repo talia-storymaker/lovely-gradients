@@ -153,5 +153,13 @@ main {
 }
 
 .sun {
-    background: radial-gradient(circle at center, #ff0 10%, #FFB70E 40%, #fff 40%, #0090FF 65%);
+    background: radial-gradient(circle at center, #ff0 10%, #FFB70E 40%, #BEFFFB 40%, #0090FF 65%);
+}
+
+.rainbow-waves {
+    background: repeating-radial-gradient(ellipse at 250% 100%, purple, blue 10%, green 15%, yellow 20%, orange 25%, red 30%);
+}
+
+.peppermint {
+    background: repeating-linear-gradient(to right, white, 15%, red 16%);
 }
