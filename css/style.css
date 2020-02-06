@@ -53,6 +53,7 @@ main {
     border-radius: 50%;
     display: inline-block;
     margin-bottom: .5rem;
+    border: none;
 }
 
 .gradient-code {
@@ -166,4 +167,16 @@ main {
 
 .pillar-of-fire {
     background: linear-gradient(to right, black, orange, red, orange, black);
+}
+
+/* Full Screen Gradient */
+
+.full-screen-gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    display: none;
 }

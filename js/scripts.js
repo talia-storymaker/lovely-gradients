@@ -1,4 +1,5 @@
 const gradientContainers = document.querySelectorAll('.gradient-container');
+const fullScreenView = document.querySelector('.full-screen-gradient');
 
 function populateGradientCodes() {
     for (let i = 0; i < gradientContainers.length; i++) {
@@ -43,6 +44,16 @@ function hideCopyConfirmation(el) {
     el.querySelector('.copy-confirmation').style.display = 'none';
 }
 
+function showFullScreenGradient(gradientClass) {
+    fullScreenView.classList.add(gradientClass);
+    fullScreenView.style.display = 'block';
+}
+
+function hideFullScreenGradient() {
+    fullScreenView.style.display = '';
+    fullScreenView.classList.length = 1;
+}
+
 document.addEventListener('click', function(event) {
     let currentButton;
 	if (event.target.matches('.copy-button') || event.target.parentNode.matches('.copy-button')) {
@@ -53,6 +64,12 @@ document.addEventListener('click', function(event) {
         }
         copyToClipboard(currentButton.parentNode.querySelector('.gradient-code').textContent);
         showCopyConfirmation(currentButton);
+    }
+    if (event.target.matches('.gradient')) {
+        showFullScreenGradient(event.target.classList[1]);
+    }
+    if (fullScreenView.style.display == 'block') {
+        hideFullScreenGradient();
     }
 }, false);
 
