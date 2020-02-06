@@ -160,6 +160,10 @@ main {
     background: repeating-radial-gradient(ellipse at 250% 100%, purple, blue 10%, green 15%, yellow 20%, orange 25%, red 30%);
 }
 
-.peppermint {
-    background: repeating-linear-gradient(to right, white, 15%, red 16%);
+.shine {
+    background: linear-gradient(to right, #AA18D3, #18D3B6);
+}
+
+.pillar-of-fire {
+    background: linear-gradient(to right, black, orange, red, orange, black);
 }
