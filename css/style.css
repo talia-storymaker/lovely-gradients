@@ -172,11 +172,20 @@ main {
 /* Full Screen Gradient */
 
 .full-screen-gradient {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
     z-index: 1;
     display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.close-instructions {
+    background: rgba(255, 255, 255, .75);
+    border-radius: 2em;
+    padding: .5em 1em;
+    font-size: 2em;
 }
