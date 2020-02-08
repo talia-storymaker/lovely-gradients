@@ -79,5 +79,11 @@ document.addEventListener('click', function(event) {
     }
 }, false);
 
+document.addEventListener('keydown', function(event) {
+    if (event.code === 'Escape' && fullScreenViewShown === true) {
+        hideFullScreenGradient();
+    }
+})
+
 populateGradientCodes();
 addCopyButtons();
