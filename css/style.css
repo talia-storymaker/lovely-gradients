@@ -14,6 +14,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
     margin-bottom: 1rem;
+    font-weight: lighter;
 }
 
 /* Intro */
@@ -54,6 +55,12 @@ main {
     display: inline-block;
     margin-bottom: .5rem;
     border: none;
+    transition: box-shadow .25s;
+}
+
+.gradient:hover {
+    box-shadow: 0 0 20px #728f9e;
+    transition: box-shadow .25s;
 }
 
 .gradient-code {
