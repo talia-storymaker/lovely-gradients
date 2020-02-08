@@ -48,12 +48,14 @@ function hideCopyConfirmation(el) {
 function showFullScreenGradient(gradientClass) {
     fullScreenView.classList.add(gradientClass);
     fullScreenView.style.display = 'flex';
+    fullScreenView.style.opacity = '1';
     fullScreenViewShown = true;
     console.log('showFullScreenGradient');
 }
 
 function hideFullScreenGradient() {
     fullScreenView.style.display = '';
+    fullScreenView.style.opacity = '';
     fullScreenView.className = 'full-screen-gradient';
     fullScreenViewShown = false;
     console.log('hideFullScreenGradient');

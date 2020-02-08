@@ -181,6 +181,8 @@ main {
     display: none;
     justify-content: center;
     align-items: center;
+    opacity: 0;
+    animation: fade-in .25s;
 }
 
 .close-instructions {
@@ -188,4 +190,8 @@ main {
     border-radius: 2em;
     padding: .5em 1em;
     font-size: 2em;
+}
+
+@keyframes fade-in {
+    from { opacity: 0; } to { opacity: 1; }
 }
