@@ -176,6 +176,14 @@ main {
     background: linear-gradient(to right, black, orange, red, orange, black);
 }
 
+.neapolitan {
+    background: linear-gradient(to bottom, #66260F, #FBEDB3, #F39C9C);
+}
+
+.sludge {
+    background: radial-gradient(ellipse at bottom right, purple, black, purple);
+}
+
 /* Full Screen Gradient */
 
 .full-screen-gradient {
