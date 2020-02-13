@@ -181,7 +181,15 @@ main {
 }
 
 .sludge {
-    background: radial-gradient(ellipse at bottom right, purple, black, purple);
+    background: radial-gradient(ellipse at top, #266011, #000, #770277);
+}
+
+.berry-wine {
+    background: linear-gradient(to bottom right, #590026, #9D0316, #590026);
+}
+
+.drip {
+    background: radial-gradient(ellipse at top, #0C3CA8, #3B97EF, aliceblue);
 }
 
 /* Full Screen Gradient */
