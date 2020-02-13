@@ -50,6 +50,7 @@ function showFullScreenGradient(gradientClass) {
     fullScreenView.style.display = 'flex';
     fullScreenView.style.opacity = '1';
     fullScreenViewShown = true;
+    document.querySelector('body').style.overflow = 'hidden';
     console.log('showFullScreenGradient');
 }
 
@@ -58,6 +59,7 @@ function hideFullScreenGradient() {
     fullScreenView.style.opacity = '';
     fullScreenView.className = 'full-screen-gradient';
     fullScreenViewShown = false;
+    document.querySelector('body').style.overflow = '';
     console.log('hideFullScreenGradient');
 }
 
