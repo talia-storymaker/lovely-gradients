@@ -192,6 +192,18 @@ main {
     background: radial-gradient(ellipse at top, #0C3CA8, #3B97EF, aliceblue);
 }
 
+.falling-fire {
+    background: radial-gradient(ellipse at top, #F27409, #F22309, #000);
+}
+
+.x {
+    background: linear-gradient(to bottom right, transparent 45%, #000 45% 55%, transparent 55%), linear-gradient(to bottom left, cyan 45%, #000 45% 55%, cyan 55%);
+}
+
+.weird-waves {
+    background: repeating-radial-gradient(circle at bottom right, blue 5%, transparent 10% 20%);
+}
+
 /* Full Screen Gradient */
 
 .full-screen-gradient {
