@@ -204,6 +204,10 @@ main {
     background: repeating-radial-gradient(circle at bottom right, blue 5%, transparent 10% 20%);
 }
 
+.metal-x {
+    background: linear-gradient(to bottom right, transparent 40%, grey 40%, #fff 50%, grey 60%, transparent 60%), linear-gradient(to bottom left, transparent 40%, grey 40%, #fff 50%, grey 60%, transparent 60%);
+}
+
 /* Full Screen Gradient */
 
 .full-screen-gradient {
