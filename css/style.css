@@ -208,6 +208,10 @@ main {
     background: linear-gradient(to bottom right, transparent 40%, grey 40%, #fff 50%, grey 60%, transparent 60%), linear-gradient(to bottom left, transparent 40%, grey 40%, #fff 50%, grey 60%, transparent 60%);
 }
 
+.orbs {
+    background: radial-gradient(circle at 40% 40%, transparent, rgba(17, 210, 245, .75) 30%, transparent 30%), radial-gradient(circle at 60% 60%, transparent, rgba(147, 13, 136, .75) 30%, transparent 30%);
+}
+
 /* Full Screen Gradient */
 
 .full-screen-gradient {
